@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Node.js | <%= title %></title>
+	<link  href="main.css" rel="stylesheet">
+</head>
+<body>
+	<%- include('./partials/nav.ejs') %>
+	
+	<h1>Posts:</h1>
+	<ul class="post-list">
+		<li>
+			<article>
+				<h2>
+					<a href="/posts/1">Post title</a>
+				</h2>
+				<p>
+					Lorem ipsum dolor sit admit consectetur adipictin elit. Hefagy upren.
+				</p>
+				<div class="info">
+					<span>19.05.2022</span>
+					<span>Roland</span>
+				</div>
+			</article>
+		</li>
+	</ul>
+</body>
+</html>

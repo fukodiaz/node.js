@@ -1,0 +1,16 @@
+body {background-color: rgb(177, 118, 133);}
+ul {list-style: none;}
+nav ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	min-height: 50px;
+}
+
+nav {
+	background-color: rgb(106, 106, 207);
+}
+
+.post-list {
+	background-color: rgb(234, 175, 234);
+}

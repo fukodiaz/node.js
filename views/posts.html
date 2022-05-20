@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Posts</title>
+	<style type="text/css">
+		body {background-color: rgb(177, 118, 133);}
+		ul {list-style: none;}
+		nav ul {
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			min-height: 50px;
+		}
+
+		nav {
+			background-color: rgb(106, 106, 207);
+		}
+
+		.post-list {
+			background-color: rgb(234, 175, 234);
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/posts">Posts</a></li>
+			<li><a href="/add-post">New Post</a></li>
+			<li><a href="/contacts">Contacts</a></li>
+		</ul>
+	</nav>
+	<h1>Posts:</h1>
+	<ul class="post-list">
+		<li>
+			<article>
+				<h2>
+					<a href="/posts/1">Post title</a>
+				</h2>
+				<p>
+					Lorem ipsum dolor sit admit consectetur adipictin elit. Hefagy upren.
+				</p>
+				<div class="info">
+					<span>19.05.2022</span>
+					<span>Roland</span>
+				</div>
+			</article>
+		</li>
+	</ul>
+</body>
+</html>
